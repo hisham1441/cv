@@ -9,20 +9,20 @@ h1{
   font-size: 5.625rem;
   margin-top: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
-  color: #66BFBF;
+  color: #33a573;
 }
 
 h2{
   font-size: 2.5rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
-  color: #66BFBF;
+  color: #33a573;
   padding-bottom: 10px;
 }
 
 h3{
   font-family: 'Montserrat', sans-serif;
-  color: #11999E;
+  color: #33a573;
 }
 
 p{
@@ -39,7 +39,7 @@ hr{
 }
 
 a{
-    color: #11999E;
+    color: #33a573;
     font-family: 'Merriweather', serif;
     margin: 10px 20px;
     text-decoration: none;
@@ -52,7 +52,7 @@ a:hover{
 
 .top-container{
 
-  background-color: #E4F9F5;
+  background-color: #ffc874;
   position: relative;
   padding-top: 100px;
 }
@@ -62,23 +62,12 @@ a:hover{
 }
 
 .bottom-container{
-  background-color: #66BFBF;
+  background-color: #ffc874;
   padding-top: 20px;
   padding-bottom: 0;
 }
 
-.top-cloud{
-  position: absolute;
-  right: 300px;
-  top: 40px;
-}
 
-
-.bottom-cloud{
-  position: absolute;
-  left: 250px;
-  bottom: 300px;
-}
 
 .skill-row{
   width: 50%;
@@ -110,12 +99,12 @@ a:hover{
 }
 
 .btn {
-  background: #11CDD4;
-  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
-  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
-  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
-  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
-  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  background: #13d49d;
+  background-image: -webkit-linear-gradient(top, #13d49d, #119c95);
+  background-image: -moz-linear-gradient(top, #13d49d, #119c95);
+  background-image: -ms-linear-gradient(top, #13d49d, #119c95);
+  background-image: -o-linear-gradient(top, #13d49d, #119c95);
+  background-image: linear-gradient(to bottom, #13d49d, #119c95);
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
@@ -128,18 +117,22 @@ a:hover{
 }
 
 .btn:hover {
-  background: #30E3CB;
-  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
-  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
-  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
-  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
-  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  background: #36e373;
+  background-image: -webkit-linear-gradient(top, #36e373, #2dc25c);
+  background-image: -moz-linear-gradient(top, #36e373, #2dc25c);
+  background-image: -ms-linear-gradient(top, #36e373, #2dc25c);
+  background-image: -o-linear-gradient(top, #36e373, #2dc25c);
+  background-image: linear-gradient(to bottom, #36e373, #2dc25c);
   text-decoration: none;
 }
 
 .coputights{
-  color: #eaf6f6;
+  color: #40514E;
   font-size: 0.75rem;
   padding: 20px;
   margin: auto;
+}
+
+.back-ground{
+  width: 100%;
 }
